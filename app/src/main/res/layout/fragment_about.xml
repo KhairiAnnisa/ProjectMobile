@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@color/pink">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="33dp"
+                android:text="About"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="24dp"
+                android:layout_marginTop="7dp">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="640dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="26dp">
+
+            <ImageView
+                android:layout_width="330dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="-25dp"
+                android:src="@drawable/logo_fc" />
+
+            <TextView
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:text="FC atau Food Court merupakan aplikasi mobile yang berguna untuk kalangan semua orang dalam membeli jajanan makanan maupun minuman secara online. Aplikasi Food Court ini berdiri pada tanggal 16 Desember 2022 yang dibuat oleh 2 mahasiswa bernama Khairi dan Aryakun."
+                android:layout_marginTop="-20dp"
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="16sp"
+                android:textColor="@color/pink"
+                android:padding="15dp"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:text="Aplikasi ini tentunya untuk mempermudah konsumen dalam memesan makanan tanpa rela mengantri berjam-jam."
+                android:fontFamily="@font/poppinssemibold"
+                android:textSize="16sp"
+                android:textColor="@color/pink"
+                android:padding="15dp"
+                android:layout_marginTop="-20dp"
+                android:justificationMode="inter_word" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="-56dp"
+            android:layout_marginTop="-335dp"
+            android:src="@drawable/img_animasi" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

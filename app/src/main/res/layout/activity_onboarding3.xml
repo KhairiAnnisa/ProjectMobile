@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboarding3Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"
+        />
+
+    <ImageView
+        android:id="@+id/img_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-81dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/gambar4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_5"
+        android:text="Pelayanan Yang Baik"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:padding="10dp"
+        android:gravity="center"
+        android:id="@+id/txt_3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Pelayanan yang menerapkan 3S
+(Senyum, Sapa, Salam)"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="16sp"
+        android:id="@+id/txt_4" />
+
+    <ImageView
+        android:id="@+id/img_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/iconellipse3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_6"
+        android:width="300dp"
+        android:layout_marginTop="20dp"
+        android:text="Yuk, Daftar Sekarang!"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinssemibold"
+        android:id="@+id/btn_yukdaftar" />
+
+</RelativeLayout>

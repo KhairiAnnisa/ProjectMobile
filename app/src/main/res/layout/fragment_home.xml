@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="295dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/search_shape"
+                android:hint="Mau Makan apa hari ini?"
+                android:paddingLeft="10dp"
+                android:textSize="14dp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"></EditText>
+
+            <SearchView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16.19dp"
+                android:gravity="center_horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:searchIcon="@drawable/btn_search">
+            </SearchView>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="353dp"
+            android:layout_height="171dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/iklan"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:text="Aneka Kuliner Menarik"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="12dp"
+            android:layout_marginTop="20dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="353dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="125dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/minuman"/>
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="17dp"
+                    android:text="Minuman"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="125dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="25dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/jajanan"/>
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="17dp"
+                    android:text="Jajanan"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="125dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="25dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sweets"/>
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="17dp"
+                    android:text="Sweets"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:text="Diem-diem laku keras, lho"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="12dp"
+            android:layout_marginTop="15dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="353dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="168dp"
+                android:layout_height="131dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="168dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sate"/>
+
+                <TextView
+                    android:layout_width="147dp"
+                    android:layout_height="17dp"
+                    android:text="Sate Madura dan sayuran"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="168dp"
+                android:layout_height="131dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="17dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="168dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/soto"/>
+                <TextView
+                    android:layout_width="147dp"
+                    android:layout_height="17dp"
+                    android:text="Soto ayam kuah kuning"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="353dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="168dp"
+                android:layout_height="131dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="168dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/seblak"/>
+                <TextView
+                    android:layout_width="147dp"
+                    android:layout_height="17dp"
+                    android:text="Seblak bakso spesial"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="168dp"
+                android:layout_height="131dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="17dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="168dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/tteokbokki"/>
+                <TextView
+                    android:layout_width="147dp"
+                    android:layout_height="17dp"
+                    android:text="Tteokbokki Korean food"
+                    android:textSize="11dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

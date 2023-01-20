@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-200dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/logo_fc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/logo"
+        android:padding="30dp"
+        android:id="@+id/ly_1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:hint="Masukkan Nama"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:id="@+id/edtnamaregister"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="16sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="5dp"
+            android:hint="Masukkan Email Anda"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:id="@+id/edtemailregister"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="16sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="5dp"
+            android:hint="Kata Sandi"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:id="@+id/edtpasswordregister"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="16sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="5dp"
+            android:hint="Konfirmasi Kata Sandi"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:id="@+id/edtkonfirmasikatasandi"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnregister"
+        android:layout_width="314dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="70dp"
+        android:layout_below="@+id/ly_1"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primaryColor"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/btnregister"
+        android:gravity="center"
+        android:layout_marginTop="-60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun?"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="12sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tvlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Silahkan Masuk"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="12sp"
+            android:textColor="@color/pink"/>
+    </LinearLayout>
+</RelativeLayout>
